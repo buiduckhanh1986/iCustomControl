@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoOnOffSwitch.h
 //  iCustomGUI
 //
 //  Created by Bui Duc Khanh on 7/14/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DemoOnOffSwitch : UIViewController
 
 @end
-

@@ -8,24 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		60F32ACD1D37D8D900DE4177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32ACC1D37D8D900DE4177 /* main.m */; };
-		60F32AD01D37D8D900DE4177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32ACF1D37D8D900DE4177 /* AppDelegate.m */; };
-		60F32AD31D37D8D900DE4177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AD21D37D8D900DE4177 /* ViewController.m */; };
-		60F32AD61D37D8D900DE4177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F32AD41D37D8D900DE4177 /* Main.storyboard */; };
 		60F32AD81D37D8D900DE4177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F32AD71D37D8D900DE4177 /* Assets.xcassets */; };
-		60F32ADB1D37D8D900DE4177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F32AD91D37D8D900DE4177 /* LaunchScreen.storyboard */; };
+		60F32AE51D37DA3200DE4177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AE41D37DA3200DE4177 /* AppDelegate.m */; };
+		60F32AEA1D37DA5C00DE4177 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AE71D37DA5C00DE4177 /* BootLogic.m */; };
+		60F32AEB1D37DA5C00DE4177 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AE91D37DA5C00DE4177 /* MainScreen.m */; };
+		60F32AED1D37DBF500DE4177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F32AEC1D37DBF500DE4177 /* LaunchScreen.storyboard */; };
+		60F32AF11D37E24500DE4177 /* OnOffSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AF01D37E24500DE4177 /* OnOffSwitch.m */; };
+		60F32AF41D37EFBB00DE4177 /* DemoOnOffSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AF31D37EFBB00DE4177 /* DemoOnOffSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60F32AC81D37D8D900DE4177 /* iCustomGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCustomGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F32ACC1D37D8D900DE4177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60F32ACE1D37D8D900DE4177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		60F32ACF1D37D8D900DE4177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60F32AD11D37D8D900DE4177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60F32AD21D37D8D900DE4177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		60F32AD51D37D8D900DE4177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60F32AD71D37D8D900DE4177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60F32ADA1D37D8D900DE4177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60F32ADC1D37D8D900DE4177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F32AE31D37DA3200DE4177 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60F32AE41D37DA3200DE4177 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60F32AE61D37DA5C00DE4177 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		60F32AE71D37DA5C00DE4177 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		60F32AE81D37DA5C00DE4177 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		60F32AE91D37DA5C00DE4177 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		60F32AEC1D37DBF500DE4177 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60F32AEF1D37E24500DE4177 /* OnOffSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffSwitch.h; sourceTree = "<group>"; };
+		60F32AF01D37E24500DE4177 /* OnOffSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffSwitch.m; sourceTree = "<group>"; };
+		60F32AF21D37EFBB00DE4177 /* DemoOnOffSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOnOffSwitch.h; sourceTree = "<group>"; };
+		60F32AF31D37EFBB00DE4177 /* DemoOnOffSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOnOffSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +65,16 @@
 		60F32ACA1D37D8D900DE4177 /* iCustomGUI */ = {
 			isa = PBXGroup;
 			children = (
-				60F32ACE1D37D8D900DE4177 /* AppDelegate.h */,
-				60F32ACF1D37D8D900DE4177 /* AppDelegate.m */,
-				60F32AD11D37D8D900DE4177 /* ViewController.h */,
-				60F32AD21D37D8D900DE4177 /* ViewController.m */,
-				60F32AD41D37D8D900DE4177 /* Main.storyboard */,
+				60F32AEC1D37DBF500DE4177 /* LaunchScreen.storyboard */,
+				60F32AE61D37DA5C00DE4177 /* BootLogic.h */,
+				60F32AE71D37DA5C00DE4177 /* BootLogic.m */,
+				60F32AE81D37DA5C00DE4177 /* MainScreen.h */,
+				60F32AE91D37DA5C00DE4177 /* MainScreen.m */,
+				60F32AE31D37DA3200DE4177 /* AppDelegate.h */,
+				60F32AE41D37DA3200DE4177 /* AppDelegate.m */,
+				60F32AE21D37DA0B00DE4177 /* Control */,
+				60F32AEE1D37DF1500DE4177 /* Demo */,
 				60F32AD71D37D8D900DE4177 /* Assets.xcassets */,
-				60F32AD91D37D8D900DE4177 /* LaunchScreen.storyboard */,
 				60F32ADC1D37D8D900DE4177 /* Info.plist */,
 				60F32ACB1D37D8D900DE4177 /* Supporting Files */,
 			);
@@ -77,6 +87,24 @@
 				60F32ACC1D37D8D900DE4177 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F32AE21D37DA0B00DE4177 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				60F32AEF1D37E24500DE4177 /* OnOffSwitch.h */,
+				60F32AF01D37E24500DE4177 /* OnOffSwitch.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		60F32AEE1D37DF1500DE4177 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				60F32AF21D37EFBB00DE4177 /* DemoOnOffSwitch.h */,
+				60F32AF31D37EFBB00DE4177 /* DemoOnOffSwitch.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F32ADB1D37D8D900DE4177 /* LaunchScreen.storyboard in Resources */,
 				60F32AD81D37D8D900DE4177 /* Assets.xcassets in Resources */,
-				60F32AD61D37D8D900DE4177 /* Main.storyboard in Resources */,
+				60F32AED1D37DBF500DE4177 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F32AD31D37D8D900DE4177 /* ViewController.m in Sources */,
-				60F32AD01D37D8D900DE4177 /* AppDelegate.m in Sources */,
+				60F32AEB1D37DA5C00DE4177 /* MainScreen.m in Sources */,
+				60F32AEA1D37DA5C00DE4177 /* BootLogic.m in Sources */,
+				60F32AE51D37DA3200DE4177 /* AppDelegate.m in Sources */,
+				60F32AF41D37EFBB00DE4177 /* DemoOnOffSwitch.m in Sources */,
+				60F32AF11D37E24500DE4177 /* OnOffSwitch.m in Sources */,
 				60F32ACD1D37D8D900DE4177 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		60F32AD41D37D8D900DE4177 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60F32AD51D37D8D900DE4177 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		60F32AD91D37D8D900DE4177 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60F32ADA1D37D8D900DE4177 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60F32ADD1D37D8D900DE4177 /* Debug */ = {

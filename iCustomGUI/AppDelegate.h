@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  iCustomGUI
+//  TechmasterApp
 //
-//  Created by Bui Duc Khanh on 7/14/16.
-//  Copyright © 2016 Bui Duc Khanh. All rights reserved.
+//  Created by techmaster on 9/7/14.
+//  Copyright (c) 2014 Techmaster. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
