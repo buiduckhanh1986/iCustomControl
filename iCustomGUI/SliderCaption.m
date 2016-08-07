@@ -34,6 +34,8 @@
     return self;
 }
 
+
+// Overwrite hàm này để thumb image chạy được hết track
 - (CGRect)thumbRectForBounds:(CGRect)bounds
                    trackRect:(CGRect)rect
                        value:(float)value
@@ -49,6 +51,16 @@
     return CGRectMake(original.origin.x + offsetForValue, original.origin.y, original.size.width, original.size.height);
 }
 
+// Khởi tạo caption
+-(void) initializeCaption
+{
+    [self showCaption];
+    
+    [self addTarget:self action:@selector(showCaption) forControlEvents:UIControlEventValueChanged];
+}
+
+
+// Hàm hiển thị caption
 -(void) showCaption
 {
     UIImage* image = [UIImage imageNamed:@"SliderCaptionCombinedCaption"];
@@ -68,5 +80,7 @@
     UIGraphicsEndImageContext();
     
     [self setThumbImage:newImage forState:UIControlStateNormal];
+    
+    [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 @end

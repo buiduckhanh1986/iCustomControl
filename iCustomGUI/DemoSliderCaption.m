@@ -42,17 +42,8 @@
     [self.view addSubview:slider];
     [self.view addSubview:rotateSlider];
     
-    [self initializeSliderCaption:slider];
-    [self initializeSliderCaption:rotateSlider];
-}
-
-- (void)initializeSliderCaption:(SliderCaption*) sliderCaption{
-    [sliderCaption addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
-    [sliderCaption showCaption];
-}
-
-- (void)sliderValueChanged:(id)sender{
-    SliderCaption *senderSlider = (SliderCaption *)sender;
-    [senderSlider showCaption];
+    
+    [slider initializeCaption];
+    [rotateSlider initializeCaption];
 }
 @end

@@ -10,4 +10,5 @@
 
 @interface SliderCaption : UISlider
 -(void) showCaption;
+-(void) initializeCaption;
 @end
