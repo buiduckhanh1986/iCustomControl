@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60030C0F1D4074D300A1394D /* DemoSliderMetal.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C0E1D4074D300A1394D /* DemoSliderMetal.m */; };
+		60030C121D4074E800A1394D /* DemoSliderCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C111D4074E800A1394D /* DemoSliderCaption.m */; };
+		60030C151D40750000A1394D /* DemoSliderAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C141D40750000A1394D /* DemoSliderAudio.m */; };
+		60030C181D40752100A1394D /* SliderMetal.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C171D40752100A1394D /* SliderMetal.m */; };
+		60030C1B1D40753800A1394D /* SliderCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C1A1D40753800A1394D /* SliderCaption.m */; };
+		60030C1E1D40754700A1394D /* SliderAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 60030C1D1D40754700A1394D /* SliderAudio.m */; };
+		60079FF71D3E5CB4009BB1EE /* SampleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 60079FF61D3E5CB4009BB1EE /* SampleSlider.m */; };
+		60079FFD1D3E5EAC009BB1EE /* DemoSampleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 60079FFC1D3E5EAC009BB1EE /* DemoSampleSlider.m */; };
 		60F32ACD1D37D8D900DE4177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32ACC1D37D8D900DE4177 /* main.m */; };
 		60F32AD81D37D8D900DE4177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F32AD71D37D8D900DE4177 /* Assets.xcassets */; };
 		60F32AE51D37DA3200DE4177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AE41D37DA3200DE4177 /* AppDelegate.m */; };
@@ -18,6 +26,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60030C0D1D4074D300A1394D /* DemoSliderMetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSliderMetal.h; sourceTree = "<group>"; };
+		60030C0E1D4074D300A1394D /* DemoSliderMetal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSliderMetal.m; sourceTree = "<group>"; };
+		60030C101D4074E800A1394D /* DemoSliderCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSliderCaption.h; sourceTree = "<group>"; };
+		60030C111D4074E800A1394D /* DemoSliderCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSliderCaption.m; sourceTree = "<group>"; };
+		60030C131D40750000A1394D /* DemoSliderAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSliderAudio.h; sourceTree = "<group>"; };
+		60030C141D40750000A1394D /* DemoSliderAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSliderAudio.m; sourceTree = "<group>"; };
+		60030C161D40752100A1394D /* SliderMetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderMetal.h; sourceTree = "<group>"; };
+		60030C171D40752100A1394D /* SliderMetal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderMetal.m; sourceTree = "<group>"; };
+		60030C191D40753800A1394D /* SliderCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderCaption.h; sourceTree = "<group>"; };
+		60030C1A1D40753800A1394D /* SliderCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderCaption.m; sourceTree = "<group>"; };
+		60030C1C1D40754700A1394D /* SliderAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderAudio.h; sourceTree = "<group>"; };
+		60030C1D1D40754700A1394D /* SliderAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderAudio.m; sourceTree = "<group>"; };
+		60079FF51D3E5CB4009BB1EE /* SampleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleSlider.h; sourceTree = "<group>"; };
+		60079FF61D3E5CB4009BB1EE /* SampleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSlider.m; sourceTree = "<group>"; };
+		60079FFB1D3E5EAC009BB1EE /* DemoSampleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSampleSlider.h; sourceTree = "<group>"; };
+		60079FFC1D3E5EAC009BB1EE /* DemoSampleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSampleSlider.m; sourceTree = "<group>"; };
 		60F32AC81D37D8D900DE4177 /* iCustomGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCustomGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F32ACC1D37D8D900DE4177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60F32AD71D37D8D900DE4177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +118,14 @@
 			children = (
 				60F32AEF1D37E24500DE4177 /* OnOffSwitch.h */,
 				60F32AF01D37E24500DE4177 /* OnOffSwitch.m */,
+				60079FF51D3E5CB4009BB1EE /* SampleSlider.h */,
+				60079FF61D3E5CB4009BB1EE /* SampleSlider.m */,
+				60030C161D40752100A1394D /* SliderMetal.h */,
+				60030C171D40752100A1394D /* SliderMetal.m */,
+				60030C191D40753800A1394D /* SliderCaption.h */,
+				60030C1A1D40753800A1394D /* SliderCaption.m */,
+				60030C1C1D40754700A1394D /* SliderAudio.h */,
+				60030C1D1D40754700A1394D /* SliderAudio.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -103,6 +135,14 @@
 			children = (
 				60F32AF21D37EFBB00DE4177 /* DemoOnOffSwitch.h */,
 				60F32AF31D37EFBB00DE4177 /* DemoOnOffSwitch.m */,
+				60079FFB1D3E5EAC009BB1EE /* DemoSampleSlider.h */,
+				60079FFC1D3E5EAC009BB1EE /* DemoSampleSlider.m */,
+				60030C0D1D4074D300A1394D /* DemoSliderMetal.h */,
+				60030C0E1D4074D300A1394D /* DemoSliderMetal.m */,
+				60030C101D4074E800A1394D /* DemoSliderCaption.h */,
+				60030C111D4074E800A1394D /* DemoSliderCaption.m */,
+				60030C131D40750000A1394D /* DemoSliderAudio.h */,
+				60030C141D40750000A1394D /* DemoSliderAudio.m */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -178,10 +218,18 @@
 			files = (
 				60F32AEB1D37DA5C00DE4177 /* MainScreen.m in Sources */,
 				60F32AEA1D37DA5C00DE4177 /* BootLogic.m in Sources */,
+				60030C1B1D40753800A1394D /* SliderCaption.m in Sources */,
+				60030C1E1D40754700A1394D /* SliderAudio.m in Sources */,
+				60030C151D40750000A1394D /* DemoSliderAudio.m in Sources */,
 				60F32AE51D37DA3200DE4177 /* AppDelegate.m in Sources */,
 				60F32AF41D37EFBB00DE4177 /* DemoOnOffSwitch.m in Sources */,
+				60030C0F1D4074D300A1394D /* DemoSliderMetal.m in Sources */,
 				60F32AF11D37E24500DE4177 /* OnOffSwitch.m in Sources */,
+				60030C121D4074E800A1394D /* DemoSliderCaption.m in Sources */,
+				60079FF71D3E5CB4009BB1EE /* SampleSlider.m in Sources */,
 				60F32ACD1D37D8D900DE4177 /* main.m in Sources */,
+				60030C181D40752100A1394D /* SliderMetal.m in Sources */,
+				60079FFD1D3E5EAC009BB1EE /* DemoSampleSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +359,7 @@
 				60F32AE11D37D8D900DE4177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
